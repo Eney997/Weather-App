@@ -28,6 +28,7 @@ const Weatherinfo = () => {
             <div className='img5'></div>
         </div>
         </div>
+        {/* amati dedamovtyan */}
     </Backview>
   )
 }
