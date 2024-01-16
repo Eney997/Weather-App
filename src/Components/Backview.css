@@ -1,21 +1,86 @@
-.foto {
+.backBox {
+    display: grid;
+    place-items: center;
     background-image: url(/src/public/bgweatherMob.svg);
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
 }
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 168px;
+    margin-top: -300px
+}
 .WWSclass {
-    margin-top: 19px;
-    margin-left: 22px;
+    
+}
+.txtInput {
+    color: #fff;
 }
 input[type=text] {
     width: 114px;
-    background-color:rgba(255, 255, 255, 0.70);
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+}
+.celInfo {
+    display: grid;
+    place-items: center;
+    grid-template-areas: 'erti ori otxi'
+                         'erti sami otxi';
+    margin-top: -850px;
+    column-gap: 20px;
+}
+.celh1 {
+    grid-area: erti;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -5.12px;
+}
+.celh2 {
+    grid-area: ori;
+    width: 139px;
+    height: 25.217px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.celh3 {
+    grid-area: sami;
+    width: 139px;
+    height: 8.696px;
+    flex-shrink: 0;
+    color: #FFF;
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    border: none;
-    outline: none;
+}
+.inPick {
+    grid-area: otxi;
+    background-image: url(/src/public/CloudyDown.svg);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    margin-left: -30px;
+}
+.styles {
+
 }
