@@ -11,7 +11,7 @@ header {
     justify-content: center;
     align-items: center;
     column-gap: 168px;
-    margin-top: -1650px
+    margin-top: -1240px
 }
 .txtInput {
     color: #fff;
@@ -33,7 +33,7 @@ input[type=text] {
     place-items: center;
     grid-template-areas: 'erti ori otxi'
                          'erti sami otxi';
-    margin-top: -1350px;
+    margin-top: -950px;
     column-gap: 20px;
 }
 .celh1 {
