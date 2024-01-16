@@ -1,11 +1,11 @@
 import './App.css'
-import  Backview  from './Components/Backview'
+import  Weatherinfo  from './Components/Weatherinfo'
 
 function App() {
     
     return(
     <>
-      <Backview/>
+      <Weatherinfo/>
     </>
     )
 }

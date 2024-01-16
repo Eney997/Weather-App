@@ -3,18 +3,18 @@ import WWS from '../public/WWS.svg'
 import './Backview.css'
 
 
-const Backview = () => {
+const Backview = (props) => {
 
   return (
-    <div className='backBox'>
+    <div className='backBox'>{props.children}
       <header>
      <img src={WWS} className='WWSclass'/>
      <input className='txtInput' type='text' placeholder='Search Location'/>
     </header>
     <div className='celInfo'>
-      <h1 className='celh1 '>16°</h1>
-      <h2 className='celh2 '>London</h2>
-      <h3 className='celh3 '>06:09 - Monday, 9 Sep ‘23</h3>
+      <h1 className='celh1'>16°</h1>
+      <h2 className='celh2'>London</h2>
+      <h3 className='celh3'>06:09 - Monday, 9 Sep ‘23</h3>
       <div className='inPick'></div>
     </div>
     </div>
